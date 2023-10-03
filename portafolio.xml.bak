@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portafolios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
+  <portafolio>
+    <nombrecompleto>Yasmani Rosado</nombrecompleto>
+    <informacion>
+      <formacion>Ingeniero en Sistemas</formacion>
+      <pais>Peru</pais>
+      <idioma>castellano</idioma>
+      <contactotelefono>665091568</contactotelefono>
+      <habilidades>
+        <habilidad-dura>Manejo de java</habilidad-dura>
+        <habilidad-blanda>Trabajo en Equipo</habilidad-blanda>
+      </habilidades>
+    </informacion>
+    <proyecto>
+      <nombreproyecto>INDITEX</nombreproyecto>
+      <cargo>INDITEX</cargo>
+      <funcionesdesarrolladas>Desarrolloa del core de Administracion mediente servicios REST</funcionesdesarrolladas>
+    </proyecto>
+  </portafolio>
+</portafolios>

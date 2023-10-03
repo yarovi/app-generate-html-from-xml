@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="portafolios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="portafolio" type="portafolioType"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="portafolioType">
+    <xs:sequence>
+      <xs:element name="nombrecompleto" type="xs:string"/>
+      <xs:element name="informacion" type="informacionType"/>
+      <xs:element name="proyecto" type="proyectoType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="informacionType">
+    <xs:sequence>
+      <xs:element name="formacion" type="xs:string"/>
+      <xs:element name="pais" type="xs:string"/>
+      <xs:element name="idioma" type="xs:string"/>
+      <xs:element name="contactotelefono" type="xs:string"/>
+      <xs:element name="habilidades" type="habilidadesType"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="habilidadesType">
+    <xs:sequence>
+      <xs:element name="habilidad-dura" type="xs:string"/>
+      <xs:element name="habilidad-blanda" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="proyectoType">
+    <xs:sequence>
+      <xs:element name="nombreproyecto" type="xs:string"/>
+      <xs:element name="cargo" type="xs:string"/>
+      <xs:element name="funcionesdesarrolladas" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
